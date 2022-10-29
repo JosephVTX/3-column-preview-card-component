@@ -1,6 +1,6 @@
 export const Card = ({title = "SEDANS", iconCar, contentCard, bgCard, btnTextColor}) => {
   return (
-    <div className={`h-[31.25rem] w-[21.875rem] ${bgCard} flex flex-col justify-between py-20 px-10 text-white`}>
+    <div className={` h-[580px] w-[21.875rem] ${bgCard} flex flex-col justify-between py-20 px-10 text-white`}>
         <div className="h-[1.875rem] w-[1.875rem">
             <img src={iconCar}  />
         </div>
